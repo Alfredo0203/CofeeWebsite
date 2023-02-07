@@ -108,7 +108,7 @@ margin: 0;
 @media (min-width: 768px) {
     .contenido-principal {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 65% 35%;
         column-gap: 4rem;
     }
 }
@@ -119,7 +119,9 @@ margin: 0;
     margin-bottom: 2rem;
 }
 
-
+img {
+    max-width: 100%;
+}
 
 .entrada:last-of-type {
     border: none;
